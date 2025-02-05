@@ -1,0 +1,25 @@
+#main-content {
+  width: 100%;
+  display: grid;
+  grid-template: repeat(auto-fit, minmax(300px, 1fr)) / repeat(
+      auto-fit,
+      minmax(200px, 300px)
+    );
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.main-title {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.main-subtitle {
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1.5rem;
+}
+
+.card * {
+  color: inherit;
+}

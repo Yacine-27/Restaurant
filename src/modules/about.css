@@ -1,0 +1,23 @@
+#about-content {
+  height: 100vh;
+  background: linear-gradient(to right, #15547d 0%, #0f3956 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#about-content * {
+  color: inherit;
+}
+
+#about-content h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#about-content p {
+  font-size: 2rem;
+}

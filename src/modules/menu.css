@@ -1,0 +1,44 @@
+#menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+#menu-content h2 {
+  font-size: 2.5rem;
+}
+
+.menu-items {
+  display: grid;
+  grid-template: repeat(auto-fit, minmax(150px, 200px)) / repeat(
+      auto-fit,
+      minmax(200px, 300px)
+    );
+  gap: 2rem;
+  justify-content: center;
+}
+
+.main-item {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-img-container {
+  height: 100%;
+}
+
+.menu-item span {
+  background-color: #324a5e;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 1rem;
+  color: var(--nav-background);
+  border-left: 1rem solid var(--nav-background);
+  font-size: 2rem;
+}
